@@ -1,2 +1,7 @@
-Q: What is Linq?
-A: 
+Q: What is Linq To SQL?
+A: Linq To SQL is an ORM* framework that can automatically create .NET classes based on database tables. Then we can use Linq To SQL queries such as "select", "delete",
+"update" and so forth, in any .NET supported languages like C#.
+There is something named Linq To SQL provider which converts the queries to an understandable expression for a database.
+It is considerable that Linq supports only SQL server databases.
+
+*ORM (Object Relational Mapping): is a technique for converting data between database and programming language. 
