@@ -1,1 +1,10 @@
+Single: Returns one element of a list. In other words, we use ".Single()" when we know the list has ONLY one element. If no element is found or multiple elements pass the condition, it'll throw an exception. 
+ So in these cases, we should use ".SingleOrDefault()".
 
+SingleOrDefault: Returns one element of a sequence and if no element is found then it will return the default value of that type
+
+First: Returns the first element of a list. We use ".First()" when we are sure that there is at least one element (I mean maybe there are more than one element in a list and we want the first one). 
+Sometimes we determine a condition in parentheses and ".First()" returns the first element that passes the condition.
+If the list is empty or no element passes the condition, it throws an exception. So in these cases, we should use ".FirstOrDefault()".
+
+FirstOrDefault: Returns the first element of a sequence and if no element is found then it will return the default value of that type.
