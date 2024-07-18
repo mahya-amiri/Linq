@@ -1,0 +1,6 @@
+* IEnumerable executes the query in the client's memory (client side). This means all data is loaded into memory from the database before query operations like filtering or sorting are applied.
+So it is suitable for in-memory collections such as arrays and lists, but less efficient for large datasets. 
+
+* In contrast, IQueryable executes the query on the server (server side).It converts Ling queries into query languages like SQL and It's ideal for complex or large data sets.
+
+* IList is useful when we want to perform any operation like Add, Remove or Get item at specific index position in the collection.
