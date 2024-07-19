@@ -1,0 +1,2 @@
+Except returns the elemnts that are in the first collection but not in the second collection.
+X = {"A","B","C","D"}        Y={"C","D","E","F"}        X.Except(Y) = {"A","B"}
