@@ -1,0 +1,2 @@
+Union is used to combine multiple collections into one collection and remones all duplicated data. for example:
+X = {"A","B","C","D"}        Y={"C","D","E","F"}        X.Union(Y) = {"A","B","C","D","E","F"}
